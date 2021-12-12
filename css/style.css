@@ -1,0 +1,84 @@
+body {
+  background: url("../images/money-paper-currency.jpg") no-repeat;
+}
+
+.container {
+  max-width: 1070px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+h2 {
+  background: cyan;
+  text-align: center;
+  padding: 10px;
+}
+
+.calculator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.num-input {
+  width: 200px;
+  padding: 10px;
+  background: antiquewhite;
+  margin: 0 25px 25px 0;
+  border: none;
+  border-radius: 5px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+.exchange-btn {
+  width: 150px;
+  padding: 10px;
+  margin: 0 25px 25px 0;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.exchange-btn:hover {
+  background: cyan;
+  color: red;
+}
+
+.history-box {
+  display: inline-block;
+  text-align: center;
+}
+
+h3 {
+  background: lightcyan;
+  padding: 5px;
+}
+
+.history {
+  padding: 10px 20px;
+  width: 500px;
+  height: 300px;
+  background: aquamarine;
+  font-weight: bold;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  overflow: auto;
+}
+
+.result-btn {
+  width: 150px;
+  padding: 10px;
+  margin: 0 25px 25px 0;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.result-btn:hover {
+  background: cyan;
+  color: red;
+}
+
+/*# sourceMappingURL=style.css.map */

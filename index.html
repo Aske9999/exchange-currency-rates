@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>EXCHANGE RATES</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<div class="container">
+    <h2>CURRENCY EXCHANGE RATES</h2>
+    <div class="calculator">
+        <input class="num-input"  id="enter" type="number" placeholder="Enter currency">
+        <label class="currency-lab" for="enter"></label>
+        <input class="num-input" id="result" readonly type="number" placeholder="Result">
+        <label class="currency-lab" for="result"></label>
+    </div>
+    <div class="calculator">
+        <select class="num-input" name="currency" id="currency">
+            <option disabled selected value="">Choose currency</option>
+        </select>
+        <select class="num-input" name="currency-result" id="currency-result">
+            <option disabled selected value="">Choose currency</option>
+        </select>
+    </div>
+    <div class="button">
+        <button class="exchange-btn" disabled id="exchange-btn" type="button">EXCHANGE</button>
+    </div>
+    <div class="history-box">
+        <h3 class="title">RESULTS</h3>
+        <div class="history" id="history">
+            <ul class="history-list"></ul>
+        </div>
+        <button class="result-btn" id="result-btn" type="button">CLEAN ALL</button>
+    </div>
+</div>
+
+</body>
+
+
+<script src="script.js"></script>
+</html>
